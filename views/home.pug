@@ -1,0 +1,38 @@
+extends base.pug
+
+block scripts
+  script(src='/static/script.js')
+
+block style 
+  style
+     include ../static/style.css 
+
+block content 
+    section#introSection 
+      div WELCOME TO THIS RANDOM WEBSITE 
+      div#text JUST ADDING MORE TEXT 
+    section#missionSection 
+      h3 OUR MISSION
+      div#cards 
+       div.card 
+         h3 RANDOM HEADING
+         p Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda ipsa labore nihil nobis, explicabo doloribus consequuntur voluptatibus ipsum debitis? Quae explicabo, nesciunt quo eum accusamus eligendi architecto illo animi!
+       div.card
+         h3 RANDOM HEADING
+         p Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda ipsa labore nihil nobis, explicabo doloribus consequuntur voluptatibus ipsum debitis? Quae explicabo, nesciunt quo eum accusamus eligendi architecto illo animi!
+       div.card
+         h3 RANDOM HEADING
+         p Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda ipsa labore nihil nobis, explicabo doloribus consequuntur voluptatibus ipsum debitis? Quae explicabo, nesciunt quo eum accusamus eligendi architecto illo animi!
+       div.card
+         h3 RANDOM HEADING
+         p Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda ipsa labore nihil nobis, explicabo doloribus consequuntur voluptatibus ipsum debitis? Quae explicabo, nesciunt quo eum accusamus eligendi architecto illo animi!
+        
+    section#sponsorSection 
+      h3 OUR SPONSORS 
+      div#sponsors
+        img(src="/static/logo1.png", alt="" class="spImage")
+        img(src="/static/logo2.png", alt="" class="spImage")
+        img(src="/static/logo3.png", alt="" class="spImage")
+        img(src="/static/logo4.png", alt="" class="spImage") 
+
+       

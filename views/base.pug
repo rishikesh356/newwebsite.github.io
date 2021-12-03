@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Random
+    block scripts
+    block style
+
+  body
+    nav#navbar.top 
+      ul
+        div#logo
+          img(src="/static/logo.png", alt="")
+          | RKT  
+        li #[a(href ="/") Home]
+        li #[a(href ="/") About]
+        li #[a(href ="/") Services]
+        li #[a(href ="/contact") Contact  ]
+        li #[a(href ="/") More ]
+    block content
+    footer#footer 
+      | Copyright 2021 RandomWebsite.com 
